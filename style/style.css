@@ -1,0 +1,46 @@
+
+:root{
+    --Family: [Outfit](https://fonts.google.com/specimen/Outfit);
+--Weights: 400, 700;
+--White: hsl(0, 0%, 100%);
+--Light-gray:hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+    height: 100vh;
+    background-color: var(--Light-gray);
+    display: flex;
+    align-items: center;
+    font-family: var(--Family);
+}
+.caixa{
+    width: 20%;
+    background-color: var(--White);
+    text-align: center;
+    margin:auto;
+    border-radius: 5%;
+}
+.qrcode{
+    width: 90%;
+    margin: 1em;
+    border-radius:5%;
+}
+.text{
+    width: 80%;
+    margin: auto;
+}
+.title{
+    font-weight: 700;
+    font-size: 1.5em;
+    color: var(--Dark-blue);
+    text-align: center;
+}
+.paragraph{
+    font-weight: 400;
+    padding: 1em;
+    font-size:1em;
+    color: var(--Grayish-blue);
+    text-align: center;
+}
+
